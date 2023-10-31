@@ -12,7 +12,7 @@ function App() {
   const addValue = () => {
     // counter = counter + 1
     if (counter === 20) {
-      return 20;
+      return counter;
     } else {
       setCounter(counter + 1)
     }
