@@ -1,11 +1,13 @@
 import Chai from "./chai"
-function App() {
 
+function App() {
+  const username = "chai aur code"
   return (
     //  this is called fragment
     <>
       <Chai />
-      <h1>React Demo</h1>
+      {/* {username} this is evaluation expression  */}
+      <h1>React Demo {username}</h1>
       <p>Test para</p>
     </>
   )
