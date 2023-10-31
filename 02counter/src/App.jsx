@@ -11,11 +11,19 @@ function App() {
 
   const addValue = () => {
     // counter = counter + 1
-    setCounter(counter + 1)
+    if (counter === 20) {
+      return 20;
+    } else {
+      setCounter(counter + 1)
+    }
   }
 
   const removeValue = () => {
-    setCounter(counter - 1)
+    if (counter === 0) {
+      return 0;
+    } else {
+      setCounter(counter - 1)
+    }
   }
 
   return (
