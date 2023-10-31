@@ -1,11 +1,11 @@
 
 
 
-function Chai(){
-    return(
-    
-        <h2>chai in react</h2>
-    
+function Chai() {
+    return (
+
+        <h2>first react component</h2>
+
     );
 }
 
