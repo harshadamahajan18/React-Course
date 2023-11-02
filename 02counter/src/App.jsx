@@ -11,6 +11,7 @@ function App() {
 
   const addValue = () => {
     // counter = counter + 1
+    // Interview question how to increase value of counter directly from 15 to 19
     setCounter(prevCounter => prevCounter + 1)
     setCounter(prevCounter => prevCounter + 1)
     setCounter(prevCounter => prevCounter + 1)
